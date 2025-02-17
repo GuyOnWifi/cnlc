@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 export default function Camera() {
     
@@ -26,10 +27,11 @@ export default function Camera() {
     }, []);
 
     return (
-        <div>
-            <video ref={videoRef} playsInline={true} autoPlay={true}>
+        <div className="w-full h-full relative flex flex-col justify-center overflow-hidden">
+            <video ref={videoRef} playsInline={true} autoPlay={true} className="">
 
             </video>
+            <Image src="/record_button.svg" alt="Take an image" width={40} height={40} className="absolute h-[6rem] w-[6rem] bottom-4 left-1/2 -translate-x-1/2 "></Image>
             {error && <p>{error}</p>}
         </div>
 
