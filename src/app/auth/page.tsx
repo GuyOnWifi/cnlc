@@ -1,6 +1,5 @@
 // src/app/auth/page.tsx
 import SignIn from './signIn';
-import SignUp from './signUp';
 
 export default function AuthPage() {
   return (
