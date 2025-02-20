@@ -1,6 +1,6 @@
 import Camera from "@/components/Camera";
 import NavBar from "@/components/NavBar";
-// import NutritionMenu from "@/components/NutritionMenu";
+import NutritionMenu from "@/components/NutritionMenu";
 
 export default function Home() {
   

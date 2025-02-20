@@ -56,9 +56,14 @@ export default function NutritionMenu(props: ComponentProps) {
 
                 <div className="flex flex-row border-[#464646] border-2 grow rounded-md p-4 gap-4">
                     <Image src="/health.svg" alt="health" width={20} height={20}/>
-                    <div className="flex flex-col">
-                        <span className="font-bold">Health Score</span>
-                        <span>{props.foodData.score}</span>
+                    <div className="flex flex-col grow">
+                        <div className="font-bold flex flex-row justify-between">
+                            <span>Health Score</span>
+                            <span className="text-right">{props.foodData.score} / 10</span>
+                        </div>
+                        <div className="h-2 w-full rounded-full bg-white">
+                            <div style={{width: `${props.foodData.score * 10}%`}} className="bg-green-500 h-2 z-40 rounded-full"></div>
+                        </div>
                     </div>
                 </div>
 
