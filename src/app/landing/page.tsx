@@ -6,7 +6,7 @@ import { Tabs } from "@/components/landing/tabs";
 import { BentoGrid, BentoGridItem } from "@/components/landing/bento-grid";
 import Image from "next/image";
 import { IconClipboardCopy, IconBoxAlignTopLeft, IconTableColumn, IconArrowWaveRightUp } from "@tabler/icons-react";
-import { cn } from "../../../lib/utils";
+import { cn } from "../../lib/utils";
 
 const DummyContent = () => {
  return (
