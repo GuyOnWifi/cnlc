@@ -14,7 +14,7 @@ export default function Home() {
   };
 
   return (
-    <div className="h-dvh w-dvw min-h-screen min-w-screen flex flex-col items-between gap-4 overflow-hidden">
+    <div className="h-dvh w-dvw min-h-dvh min-w-dvw flex flex-col items-between gap-4 overflow-hidden">
       {/* <NutritionMenu foodData={sample}/> */}
       <div className="flex-grow">
         <Camera />
