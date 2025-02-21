@@ -12,6 +12,7 @@
     "@capacitor/android": "^7.0.1",
     "@capacitor/core": "^7.0.1",
     "@capacitor/ios": "^7.0.1",
+    "@google/generative-ai": "^0.22.0",
     "@tabler/icons-react": "^3.30.0",
     "clsx": "^2.1.1",
     "firebase": "^11.3.1",
